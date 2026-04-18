@@ -16,7 +16,7 @@ export default defineConfig({
   ],
 
   use: {
-    headless: false, // open browser UI
+    headless: true, // open browser UI
     //baseURL:"https://rahulshettyacademy.com/seleniumPractise/#/"
     trace:'on'
   },
