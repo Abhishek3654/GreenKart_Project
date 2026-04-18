@@ -25,5 +25,5 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
 
-    - name: Run Playwright Tests (HEADLESS FIX 🔥)
-      run: npx playwright test --headless
+    - name: Run Playwright Tests 
+      run: npx playwright test --headed
